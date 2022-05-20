@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.post {
+  max-width: 400px;
+  margin: 10vh auto;
+  background-color: white;
+}
+
+.wrapper {
+  padding: 0.5em 2em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
+}
+
+.post-img {
+  width: 100%;
+  aspect-ratio: 1.5 / 1;
+  object-fit: cover;
+  object-position: 50% 60%;
+}
+
+.like {
+  border: 0;
+  background-color: transparent;
+  color: black;
+}
+
+.comment-input {
+  padding: 0.5em;
+}
+
+.liked {
+  color: red;
+}
+
+.comments {
+  margin-top: 1em;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.comment-wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  margin-bottom: 2em;
+}
